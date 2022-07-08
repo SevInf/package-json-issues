@@ -1,0 +1,14 @@
+{
+  "name": "yarn-workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "generate": "prisma generate"
+  },
+  "dependencies": {
+    "prisma": "^4.0.0",
+    "@prisma/client": "4.0.0"
+  }
+}
